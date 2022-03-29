@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+header{
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo-container img {
+    display: block;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    min-width: 10rem;
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+.square-section {
+    margin-top: 2rem;
+}
+
+figure img {
+    width: 10rem;
+    height: 15rem;
+}
+
+figure p{
+    text-align: center;
+    color: #231f1f;
+    font-size: 2rem;
+    bottom: 2rem;
+    font-weight: bold;
+    line-height:1rem;
+    margin-bottom: 1rem;
+}
+
+figure h6{
+    text-align: center;
+    color: #231f1f;
+    font-size: 1rem;
+}
+
+.square-main-container{
+    display: block;
+    width: 90%;
+    max-width: 30rem;
+    min-width: 30rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #ec718a;
+    border-radius: 4.5rem;
+    box-shadow: 0 0.4rem 0.8rem rgba(47, 139, 96, 0.16);
+}
+
+.figure-logo {
+    display: flex;
+    justify-content: center;
+}
+.square-img img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.user-info-main--container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-info-main--container h2{
+    color: #231f1f;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.square-form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.square-buttons button {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1rem;
+    padding: .5rem 1.5rem;
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+.result-square-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+#square-result {
+    font-size: 1rem;
+    color: #231f1f;
+    font-weight: bold;
+}
+
+#triangle-section{
+    background-color: #fda65e;
+}
+
+.figure-logo #triangle-logo img{
+    width: 8rem;
+    height: 8rem;
+}
+
+#circle-section {
+    background-color: #78c6e5;
+}

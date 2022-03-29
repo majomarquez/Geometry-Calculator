@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width:500px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Curso practico de Js</title>
+</head>
+<body>
+    <header>
+        <figure class="logo-container">
+            <img src="./assets/logo1.png" alt="">
+            <p>I will do the hard work</p>
+            <h6>Coded by: Dario Urdaneta</h>
+        </figure>
+    </header>
+
+    <section class="square-section">
+        <div class="square-main-container">
+            <div class="figure-logo">
+                <figure class="square-img">
+                    <img src="./assets/square.png" alt="">
+                </figure>
+            </div>
+            <h2 style="text-align: center">SQUARE</h2>
+            <div class="user-info-main--container">
+                <h2>Calculate the area and perimeter of a square</h2>
+                <form action="#" class="square-form-container">
+                        <input type="number" id="InputUsuario" placeholder="Side">
+                    <div class="square-buttons">
+                        <button type="button" onclick="calcularPerimetroCuadrado()">Perimeter</button>
+                        <button type="button" onclick="calcularAreaCuadrado()">Area</button>
+                    <div class="result-square-container">
+                        <p>Result =</p>
+                        <output id="square-result"></output>
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="square-section" >
+        <div class="square-main-container " id="triangle-section">
+            <div class="figure-logo">
+                <figure class="square-img" id="triangle-logo">
+                    <img src="./assets/triangle.png" alt="">
+                </figure>
+            </div>
+            <h2 style="text-align: center">TRIANGLE</h2>
+            <div class="user-info-main--container">
+                <h2>Calculate the area and perimeter of a triangle</h2>
+                <form action="#" class="square-form-container">
+                        <input type="number" id="side-one" placeholder="Side A">
+                        <input type="number" id="side-two" placeholder="Side B">
+                        <input type="number" id="side-base" placeholder="Base">
+                        <input type="number" id="altura-triangle" placeholder="Height">
+                    <div class="square-buttons">
+                        <button type="button" onclick="calcularTriangulo()">Perimeter</button>
+                        <button type="button" onclick="calcularAlturaTriangle()">Area</button>
+                    <div class="result-square-container">
+                        <p>Result =</p>
+                        <output id="triangle-result"></output>
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="square-section">
+        <div class="square-main-container" id="circle-section">
+            <div class="figure-logo">
+                <figure class="square-img">
+                    <img src="./assets/circle.png" alt="">
+                </figure>
+            </div>
+            <h2 style="text-align: center">CIRCLE</h2>
+            <div class="user-info-main--container">
+                <h2>Calculate the diameter, perimeter & area of a Circle</h2>
+                <form action="#" class="square-form-container">
+                        <input type="number" id="radio-input" placeholder="Radio">
+                    <div class="square-buttons">
+                        <button type="button" onclick="calcularCircleDiameter()">Diameter</button>
+                        <button type="button" onclick="calcularCirclePerimeter()">Perimeter</button>
+                        <button type="button" onclick="calcularCircleArea()">Area</button>
+                    <div class="result-circle-container">
+                        <p>Result =</p>
+                        <output id="circle-result"></output>
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
